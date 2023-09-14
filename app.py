@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the model
-model_path = "finalized_model.pkl"
+model_path = "Game store\finalized_model.pkl"
 with open (model_path, "rb") as model_file:
   model = pickle.load(model_file)
 
